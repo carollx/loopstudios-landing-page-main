@@ -32,7 +32,7 @@ body {
   background-color: transparent;
 }
 
-.topnav a{
+.topnav a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -365,7 +365,7 @@ body {
     padding: 0.4rem;
   }
 
-  .attribution{
+  .attribution {
     order: 4;
   }
 
@@ -604,7 +604,7 @@ body {
     padding: 0.4rem;
   }
 
-  .attribution{
+  .attribution {
     order: 4;
   }
 }
@@ -637,7 +637,7 @@ body {
     justify-content: center;
   }
 
-  .topnav{
+  .topnav {
     overflow: unset;
     display: flex;
     flex-direction: row;
@@ -645,7 +645,7 @@ body {
     background-color: transparent;
   }
 
-  .topnav a{
+  .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -868,7 +868,7 @@ body {
     width: 4%;
   }
 
-  .attribution{
+  .attribution {
     order: 5;
   }
 }
@@ -883,11 +883,13 @@ body {
   }
 
   img.logoTop {
-    padding-top: 2.4rem;
     padding-left: 1.5rem;
-    width: 200px;
-    height: 36px;
+    margin-left: 1rem;
+    width: 170px;
+    height: 31px;
     margin-bottom: 6rem;
+    margin-top: 1rem;
+    margin-right: 13rem;
   }
 
   .firstPage {
@@ -899,12 +901,28 @@ body {
     justify-content: center;
   }
 
+  .topnav {
+    overflow: unset;
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
+    background-color: transparent;
+  }
 
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 56px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
 
   .title {
     border: 2px solid white;
-    margin: 6rem;
-    margin-top: 3rem;
+    margin: 3rem;
+    margin-top: 8rem;
     padding-left: 0.5rem;
     padding-right: 3rem;
     padding-top: 1rem;
@@ -913,17 +931,19 @@ body {
   .title>h1 {
     color: white;
     position: relative;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans',
+      sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 5.5rem;
-    padding-left: 3.2rem;
+    padding-left: 2.2rem;
   }
 
   h2.title {
     color: hsl(0, 0%, 0%);
     position: relative;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans',
+      sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 4.5rem;
@@ -941,20 +961,21 @@ body {
   }
 
   p.aboutUs {
-    font-family: 'Alata', sans-serif;
+    font-family: 'Alata',
+      sans-serif;
     font-weight: 400;
     color: hsl(0, 0%, 55%);
-    font-size: 1.7rem;
+    font-size: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 2rem;
     text-align: center;
-    line-height: 1.7rem;
+    line-height: 2.7rem;
   }
 
-  .creations {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .ourCreations {
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -962,13 +983,15 @@ body {
   }
 
   h2.ourCreationsTitle {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans',
+      sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 4.5rem;
     padding-top: 4rem;
     text-align: center;
     color: hsl(0, 0%, 0%);
+    margin-bottom: 4rem;
   }
 
   .item1 h3,
@@ -979,7 +1002,8 @@ body {
   .item6 h3,
   .item7 h3,
   .item8 h3 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans',
+      sans-serif;
     font-weight: 300;
     color: hsl(0, 0%, 100%);
     font-size: 2.5rem;
@@ -1044,33 +1068,37 @@ body {
 
   .btnSeeAll {
     background-color: #ededed;
-    font-family: 'Alata', sans-serif;
+    font-family: 'Alata',
+      sans-serif;
     font-weight: 400;
     border: 1px solid #000000;
     display: inline-block;
     cursor: pointer;
     color: #000000;
-    padding: 17px 22px;
+    padding: 19px 22px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
     font-size: 2rem;
     width: 35%;
     align-self: center;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     text-align: center;
   }
 
-  footer {
+  .footer {
     background-color: hsl(0, 0%, 0%);
+    display: flex;
+    flex-direction: column;
   }
 
-  footer>p {
+  footer p {
     color: hsl(0, 0%, 55%);
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: -0.5rem;
-    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    order: 4;
   }
 
   .menuFooter {
@@ -1083,19 +1111,21 @@ body {
   .menuFooter>a {
     color: white;
     padding: 0.7rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   img.logoBottom {
     padding-top: 2.4rem;
     padding-left: 1.5rem;
-    width: 177px;
-    height: 33px;
+    width: 222px;
+    height: 43px;
     margin-bottom: 1.5rem;
+    align-self: center;
   }
 
   .socialMedia {
     margin-top: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
 
@@ -1109,10 +1139,8 @@ body {
   }
 
   .attribution {
-    margin-top: 1rem;
-    color: hsl(0, 0%, 55%);
-    font-size: 1.2rem;
-    text-align: center;
+    order: 5;
+    font-size: 1.5rem;
   }
 }
 
@@ -1134,9 +1162,13 @@ body {
 
   .socialMedia a:hover,
   .socialMedia a:focus,
-  .socialMedia a:active, .menuFooter a:hover, .menuFooter a:focus,
-  .menuFooter a:active, .topnav a:hover, .topnav a:focus,
-  .topnav a:active{
+  .socialMedia a:active,
+  .menuFooter a:hover,
+  .menuFooter a:focus,
+  .menuFooter a:active,
+  .topnav a:hover,
+  .topnav a:focus,
+  .topnav a:active {
     background-size: 2.5rem 0.1em;
   }
 
@@ -1176,6 +1208,7 @@ body {
     text-align: center;
     text-decoration: none;
     padding-bottom: 0.5rem;
+    padding-top: 0;
     font-size: 1rem;
     height: fit-content;
     margin-top: 3.5rem;
@@ -1187,7 +1220,7 @@ body {
     margin-top: 8rem;
     margin-right: 42.5rem;
     position: relative;
-    left: 3rem;
+    left: 6rem;
   }
 
   .title>h1 {
@@ -1224,8 +1257,7 @@ body {
     margin-left: 8rem;
   }
 
-  div.aboutUs{
-    /* border: 1px solid red; */
+  div.aboutUs {
     width: 39rem;
     height: 22rem;
     position: absolute;
@@ -1247,14 +1279,14 @@ body {
     line-height: 1.7rem;
   }
 
-  .ourCreations{
+  .ourCreations {
     display: grid;
     grid-template-columns: 19% 19% 19% 19%;
     grid-template-rows: 11% 45% 45%;
     grid-template-areas:
-        "titulo titulo . botao"
-        "item1 item2 item3 item4"
-        "item5 item6 item7 item8";
+      "titulo titulo . botao"
+      "item1 item2 item3 item4"
+      "item5 item6 item7 item8";
     margin-top: 8rem;
     margin-bottom: 13rem;
     column-gap: 1.5rem;
@@ -1262,15 +1294,6 @@ body {
     align-items: start;
     justify-content: center;
   }
-
-  /* .creations {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 4.2rem;
-  } */
 
   h2.ourCreationsTitle {
     font-family: 'Josefin Sans', sans-serif;
@@ -1317,7 +1340,7 @@ body {
   .item7,
   .item8 {
     background-size: 100% !important;
-    height: 450px;
+    height: 440px;
     background-repeat: no-repeat;
     justify-content: center;
     display: flex;
@@ -1330,11 +1353,18 @@ body {
     grid-area: item1;
   }
 
-  .item1:hover{
+  .item1:hover {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 65%), rgba(255, 255, 255, 65%)), url("images/desktop/image-deep-earth.jpg");
   }
 
-  .item1:hover h3, .item2:hover h3, .item3:hover h3, .item4:hover h3, .item5:hover h3, .item6:hover h3, .item7:hover h3, .item8:hover h3 {
+  .item1:hover h3,
+  .item2:hover h3,
+  .item3:hover h3,
+  .item4:hover h3,
+  .item5:hover h3,
+  .item6:hover h3,
+  .item7:hover h3,
+  .item8:hover h3 {
     color: black;
   }
 
@@ -1343,7 +1373,7 @@ body {
     grid-area: item2;
   }
 
-  .item2:hover{
+  .item2:hover {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 65%), rgba(255, 255, 255, 65%)), url("images/desktop/image-night-arcade.jpg");
   }
 
@@ -1352,7 +1382,7 @@ body {
     grid-area: item3;
   }
 
-  .item3:hover{
+  .item3:hover {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 65%), rgba(255, 255, 255, 65%)), url("images/desktop/image-soccer-team.jpg");
   }
 
@@ -1361,7 +1391,7 @@ body {
     grid-area: item4;
   }
 
-  .item4:hover{
+  .item4:hover {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 65%), rgba(255, 255, 255, 65%)), url("images/desktop/image-grid.jpg");
   }
 
@@ -1370,7 +1400,7 @@ body {
     grid-area: item5;
   }
 
-  .item5:hover{
+  .item5:hover {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 65%), rgba(255, 255, 255, 65%)), url("images/desktop/image-from-above.jpg");
   }
 
@@ -1379,7 +1409,7 @@ body {
     grid-area: item6;
   }
 
-  .item6:hover{
+  .item6:hover {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 65%), rgba(255, 255, 255, 65%)), url("images/desktop/image-pocket-borealis.jpg");
   }
 
@@ -1388,7 +1418,7 @@ body {
     grid-area: item7;
   }
 
-  .item7:hover{
+  .item7:hover {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 65%), rgba(255, 255, 255, 65%)), url("images/desktop/image-curiosity.jpg");
   }
 
@@ -1397,7 +1427,7 @@ body {
     grid-area: item8;
   }
 
-  .item8:hover{
+  .item8:hover {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 55%), rgba(255, 255, 255, 55%)), url("images/desktop/image-fisheye.jpg");
   }
 
@@ -1430,15 +1460,15 @@ body {
     background-color: hsl(0, 0%, 0%);
   }
 
-  .footer{
+  .footer {
     background-color: hsl(0, 0%, 0%);
     display: grid;
     grid-template-columns: 43% 41%;
     grid-template-rows: 57% 17%;
     grid-template-areas:
-        "logo socialMedia socialMedia"
-        "menu copyright copyright"
-        "attribution attribution attribution";
+      "logo socialMedia socialMedia"
+      "menu copyright copyright"
+      "attribution attribution attribution";
     justify-content: center;
     align-self: center;
   }
