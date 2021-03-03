@@ -2,7 +2,7 @@
 
 ## Welcome! 👋
 
-**To do this challenge, you need a good understanding of HTML and CSS and a basic understanding of JavaScript.**
+**To do this challenge, it was necessary to have good knowledge of HTML and CSS and a basic understanding of JavaScript.**
 
 ## The challenge
 
