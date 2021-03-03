@@ -1,8 +1,8 @@
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  var img = document.getElementById("iconHamburger");
-  var titleH1 = document.getElementsByClassName("title")[0];
-  var body = document.getElementsByTagName("body")[0];
+function responsiveMenu() {
+  const x = document.getElementById("myTopnav");
+  const img = document.getElementById("iconHamburger");
+  const titleH1 = document.getElementsByClassName("title")[0];
+  const body = document.getElementsByTagName("body")[0];
 
   if (x.className === "topnav") {
     x.className += " responsive";
